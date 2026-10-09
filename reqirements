@@ -1,0 +1,25 @@
+# FastAPI 后端与 Streamlit 前端
+fastapi
+uvicorn
+python-multipart
+streamlit
+requests
+
+# PostgreSQL 与 ORM
+tortoise-orm[asyncpg]
+pgvector
+
+# LangChain 与模型
+langchain
+langchain-core
+langchain-text-splitters
+langchain-deepseek
+langchain-openai
+langgraph
+
+# 数据校验与环境变量
+pydantic
+python-dotenv
+
+# 日志
+loguru

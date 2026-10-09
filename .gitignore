@@ -1,8 +1,60 @@
+IDE
+
 .idea/
-__pycache__/
-*.py[cod]
-.env
 .vscode/
+
+Python cache and compiled files
+
+pycache/
+*.py[cod]
+*$py.class
+
+Virtual environments
+
+.venv/
+venv/
+env/
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+Test and coverage artifacts
+
 .pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+Logs
+
+*.log
+logs/
+
+Build and packaging
+
+build/
+dist/
+*.egg-info/
+
+OS files
+
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+Temporary files
+
+*.tmp
+*.bak
+
+Jupyter Notebook
+
+.ipynb_checkpoints/
+
+Local databases
+
+*.sqlite3
+*.db

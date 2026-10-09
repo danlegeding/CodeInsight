@@ -59,6 +59,9 @@ Docker| 数据库及开发环境部署
 
 <img width="512" height="792" alt="image" src="https://github.com/user-attachments/assets/68cd469f-582a-4949-91d0-d47e425b02ed" />
 
+架构图
+<img width="1280" height="853" alt="53d74284d0d946f12f5db90683274c76_720" src="https://github.com/user-attachments/assets/4439d401-6301-43a2-a167-98191e85e721" />
+
 核心流程
 
 1. 代码项目导入
@@ -71,6 +74,7 @@ Docker| 数据库及开发环境部署
 6. 将代码块及其向量保存到数据库，供后续检索使用。
 
 2. 基于 RAG 的代码问答
+<img width="1280" height="853" alt="c0c95e5f8cf5f5d2d4958aeef736a703_720" src="https://github.com/user-attachments/assets/9c0d5135-bcf9-418f-9a49-12322b600dc6" />
 
 1. 用户输入问题，并指定目标项目。
 2. Embedding 模型将问题转换为查询向量。

@@ -55,29 +55,7 @@ Docker| 数据库及开发环境部署
 
 系统架构
 
-用户
- │
- ▼
-Streamlit 前端
- │
- │ HTTP 请求
- ▼
-FastAPI 后端
- │
- ├── 项目上传服务
- │    ├── ZIP 解压
- │    ├── 文件过滤
- │    ├── 源码切分
- │    ├── 生成 Embedding
- │    └── 保存项目与代码块
- │
- └── 项目问答服务
-      ├── 接收用户问题
-      ├── 生成查询向量
-      ├── pgvector 语义检索
-      ├── 整理相关代码上下文
-      ├── LangGraph 编排问答流程
-      └── 调用大语言模型生成回答
+<img width="512" height="792" alt="image" src="https://github.com/user-attachments/assets/68cd469f-582a-4949-91d0-d47e425b02ed" />
 
 核心流程
 

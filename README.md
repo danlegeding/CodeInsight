@@ -103,27 +103,7 @@ FastAPI 后端
 
 📁 项目结构
 
-CodeInsight/
-├── app/
-│   ├── main.py
-│   ├── models.py
-│   ├── routers/
-│   │   ├── project.py
-│   │   ├── chat.py
-│   │   └── code_analyzer.py
-│   ├── services/
-│   │   ├── chunker.py
-│   │   ├── embedding.py
-│   │   └── deepseek_llm.py
-│   └── graph/
-│       └── code_graph.py
-├── frontend/
-│   └── app.py
-├── tests/
-├── .env.example
-├── .gitignore
-├── README.md
-└── requirements.txt
+<img width="798" height="1315" alt="image" src="https://github.com/user-attachments/assets/9a0f3027-bb31-48ae-b219-23d3cc4fd308" />
 
 «注意：以上目录结构为参考版本。提交前请根据实际项目文件位置进行核对，并删除不存在的文件或目录。»
 

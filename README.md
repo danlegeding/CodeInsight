@@ -2,6 +2,8 @@ CodeInsight — AI 代码分析与项目问答助手
 
 CodeInsight 是一个基于大语言模型和检索增强生成（RAG）的代码分析与项目问答应用。用户可以上传代码项目，通过自然语言提问，检索相关代码片段，并利用大语言模型生成回答。
 
+<img width="2550" height="1480" alt="7ba028f927c1d1237ccb1eca7fd4e4a0" src="https://github.com/user-attachments/assets/557c1940-201f-460f-8107-24d75352036d" />
+
 项目采用前后端分离的设计，后端负责代码处理、向量化、语义检索和问答流程，前端提供可视化交互界面。
 
 目录

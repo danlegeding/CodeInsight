@@ -121,7 +121,7 @@ CodeInsight/
 ├── .gitignore              
 ├── README.md            
 └── requirements.txt
-![img.png](img.png)
+
 «注意： 以上目录结构为参考。提交前请根据实际项目核对文件位置，并删除不存在的文件或目录。»
 
 💻 环境要求

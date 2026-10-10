@@ -7,7 +7,8 @@ CodeInsight 是一个基于大语言模型（LLM）与检索增强生成（RAG�
 用户可以上传 ZIP 格式的代码项目，通过自然语言提问，检索相关源码片段，并结合大语言模型生成具有代码上下文的回答。
 
 项目采用前后端分离架构，后端负责代码处理、向量化、语义检索与问答流程编排，前端提供可视化交互界面。
-<img width="1536" height="1024" alt="26c7b9f08434a3ecb642a58f9e3a0b99" src="https://github.com/user-attachments/assets/792cf38b-3d82-4dc1-b7d7-bbd639741084" />
+<img width="1280" height="853" alt="669472386-4439d401-6301-43a2-a167-98191e85e721" src="https://github.com/user-attachments/assets/c3e36e9c-bc61-4f76-b461-db467ace7d39" />
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python" alt="Python">

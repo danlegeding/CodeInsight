@@ -1,6 +1,8 @@
 import logging
+import sys
 import time
 import uuid
+from pathlib import Path
 
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
@@ -8,10 +10,12 @@ from fastapi.responses import JSONResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from tortoise.contrib.fastapi import register_tortoise
 
-from config import TORTOISE_ORM
-from routers import project
-from app.routers import chat
-from app.routers import code_analyzer
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from app.config import TORTOISE_ORM
+from app.routers import chat, code_analyzer, project
 
 
 # 1. 日志基础配置

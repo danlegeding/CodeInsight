@@ -1,10 +1,12 @@
 CodeInsight — AI 代码分析与项目问答助手
+<img width="2550" height="1480" alt="669465664-557c1940-201f-460f-8107-24d75352036d" src="https://github.com/user-attachments/assets/4e8162f3-36ca-4e04-ac6a-2cd63d38b8b7" />
 
 CodeInsight 是一个基于大语言模型（LLM）与检索增强生成（RAG）的 AI 代码分析与项目问答应用。
 
 用户可以上传 ZIP 格式的代码项目，通过自然语言提问，检索相关源码片段，并结合大语言模型生成具有代码上下文的回答。
 
 项目采用前后端分离架构，后端负责代码处理、向量化、语义检索与问答流程编排，前端提供可视化交互界面。
+<img width="1536" height="1024" alt="26c7b9f08434a3ecb642a58f9e3a0b99" src="https://github.com/user-attachments/assets/792cf38b-3d82-4dc1-b7d7-bbd639741084" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python" alt="Python">
@@ -41,6 +43,7 @@ CodeInsight 是一个基于大语言模型（LLM）与检索增强生成（RAG�
 🖥️ 可视化交互| 使用 Streamlit 提供项目上传、问题输入和回答展示界面
 
 🛠️ 技术栈
+<img width="1536" height="1024" alt="26c7b9f08434a3ecb642a58f9e3a0b99" src="https://github.com/user-attachments/assets/3f6526d3-7160-4a36-b1fd-6eb2bbc854ab" />
 
 技术| 用途
 Python| 主要开发语言
@@ -88,6 +91,7 @@ flowchart TD
 6. 将代码块及其向量保存到数据库，供后续检索使用。
 
 2. 基于 RAG 的代码问答
+<img width="1280" height="853" alt="669472774-9c0d5135-bcf9-418f-9a49-12322b600dc6" src="https://github.com/user-attachments/assets/57a7fa24-5b10-4ffb-a8f3-44a987f7ee76" />
 
 1. 用户输入问题，并指定目标项目。
 2. Embedding 模型将问题转换为查询向量。

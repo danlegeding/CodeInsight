@@ -1,5 +1,6 @@
 CodeInsight — AI 代码分析与项目问答助手
-<img width="2550" height="1480" alt="669465664-557c1940-201f-460f-8107-24d75352036d" src="https://github.com/user-attachments/assets/4e8162f3-36ca-4e04-ac6a-2cd63d38b8b7" />
+<img width="2559" height="1535" alt="image" src="https://github.com/user-attachments/assets/7f82e89c-b564-4b88-9165-59b0a65cc1ed" />
+
 
 CodeInsight 是一个基于大语言模型（LLM）与检索增强生成（RAG）的 AI 代码分析与项目问答应用。
 
